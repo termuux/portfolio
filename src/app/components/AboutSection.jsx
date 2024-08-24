@@ -27,7 +27,17 @@ const TAB_DATA = [
         <li>Bachelors in Computer Science and Information Technology, Tribhuwan University</li>
       </ul>
     ),
-  }
+  },
+  {
+    title: "Certification",
+    id: "certification",
+    content: (
+      <ul>
+        <p>Industry Certified</p>
+      </ul>
+    )
+  },
+  
 ];
 
 const AboutSection = () => {
@@ -68,13 +78,6 @@ const AboutSection = () => {
             >
               {" "}
               Education{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
             </TabButton>
           </div>
           <div className="mt-8">

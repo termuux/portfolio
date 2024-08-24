@@ -6,15 +6,6 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
-    id: 1,
-    title: "React Portfolio Website",
-    description: "Portfolio Website",
-    image: "/images/projects/portfolio-react.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
     id: 2,
     title: "Prana Flow | Health and Wellness Website",
     description: "Health and well being landing page focused on yoga and pranayama.",
@@ -22,15 +13,6 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/termuux/prana-flow",
     previewUrl: "https://termuux.github.io/prana-flow/index.html",
-  },
-  {
-    id: 93,
-    title: "Digital Profile",
-    description: "Comprehensive and Dynamic Data Analysis",
-    image: "/images/projects/digital-profile.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/termuux/e-campus",
-    previewUrl: "https://e-campus-sapy.vercel.app/",
   },
   {
     id: 3,
@@ -42,13 +24,31 @@ const projectsData = [
     previewUrl: "https://e-campus-sapy.vercel.app/",
   },
   {
-    id: 4,
-    title: "Project Blind",
-    description: "Helping visually impaireds navigate through the world.",
-    image: "/images/projects/pblind.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/termuux/pblind",
-    previewUrl: "https://github.com/termuux/pblind",
+    id: 93,
+    title: "Digital Profile",
+    description: "Comprehensive and Dynamic Data Analysis",
+    image: "/images/projects/digital-profile.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/termuux/e-campus",
+    previewUrl: "https://e-campus-sapy.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "E Commerce Application | Flutter",
+    description: "E Commerce Flutter application",
+    image: "/images/projects/e-commerce.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/termuux/e-commerce-app",
+    previewUrl: "https://github.com/termuux/e-commerce-app",
+  },
+  {
+    id: 1,
+    title: "React Portfolio Website",
+    description: "Portfolio Website",
+    image: "/images/projects/portfolio-react.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
   {
     id: 5,
@@ -58,15 +58,6 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/termuux/tragick",
     previewUrl: "https://github.com/termuux/tragick",
-  },
-  {
-    id: 6,
-    title: "E Commerce Application | Flutter",
-    description: "E Commerce Flutter application",
-    image: "/images/projects/pblind.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/termuux/e-commerce-app",
-    previewUrl: "https://github.com/termuux/e-commerce-app",
   },
 ];
 
