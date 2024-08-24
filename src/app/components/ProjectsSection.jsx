@@ -24,6 +24,15 @@ const projectsData = [
     previewUrl: "https://termuux.github.io/prana-flow/index.html",
   },
   {
+    id: 93,
+    title: "Digital Profile",
+    description: "Comprehensive and Dynamic Data Analysis",
+    image: "/images/projects/digital-profile.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/termuux/e-campus",
+    previewUrl: "https://e-campus-sapy.vercel.app/",
+  },
+  {
     id: 3,
     title: "School Educational Platform Website",
     description: "Educational website showcasing educational websites achievements.",
