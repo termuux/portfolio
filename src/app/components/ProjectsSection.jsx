@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/digital-profile.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/termuux/e-campus",
-    previewUrl: "https://e-campus-sapy.vercel.app/",
+    previewUrl: "https://digprofile.com/",
   },
   {
     id: 6,
